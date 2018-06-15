@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cabezera{
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    background: #2E9AFE;
+    border-bottom: solid; 1px black;
+}
+.cabezera .logo{
+    float: right;
+    display: inline;
+}
+.barra-lateral{
+    width: 100px;
+    height: 100vh;
+    background: black;
+}
+.barra-lateral .menu{
+    font-size: 34px;
+    text-align: center;
+}
+.barra-lateral a h4{
+    font-size: 14px;
+    color: white;
+    transform: translateX(-200px);
+}
+.barra-lateral a {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    color: white;
+}
+.barra-lateral .menu a:hover{
+    background: #2E9AFE;
+    text-decoration:none;
+}
+
+.barra-lateral .menu:hover .item1{
+   transform: translateX(0px);
+   transition: all 100ms;
+}
+.barra-lateral .menu:hover .item2{
+   transform: translateX(0px);
+   transition: all 200ms;
+}
+.barra-lateral .menu:hover .item3{
+   transform: translateX(0px);
+   transition: all 300ms;
+}
+.barra-lateral .menu:hover .item4{
+   transform: translateX(0px);
+   transition: all 400ms;
+}
+
